@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Spark checkpoints (can be regenerated)
+checkpoint_*/
+
+# Large Spark distribution (too big for GitHub)
+spark-3.5.7-bin-hadoop3/
+spark-3.5.7-bin-hadoop3.tgz*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
